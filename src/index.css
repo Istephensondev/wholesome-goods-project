@@ -85,9 +85,16 @@ h2 {
 }
 p {
   font-size: 1em; /* Make paragraphs scale with base font size */
-  margin: 0.5em 1em; /* Adjust margins to be more responsive */
+  margin: 0.5em 0em; /* Adjust margins to be more responsive */
 }
 
+.text-wrapper {
+  margin: 0.5em 0em; 
+}
+
+.subheader {
+  margin: 0.5em 0.2em; 
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -112,6 +119,14 @@ button:focus-visible {
 img {
   max-width: 100%; /* Make images responsive */
   height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  max-width: 70%; /* Allow some margin on the sides */
+  margin: 0 auto;
+  padding: 1em; /* Adjust padding for smaller screens */
 }
 
 /* Media query for devices up to 768px wide */
